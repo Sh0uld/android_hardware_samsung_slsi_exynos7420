@@ -54,7 +54,7 @@ public:
     ~CSemaphore(void);
 
     void wait(void);
-    bool wait(int sec);
+    bool wait(long sec);
 
     bool wouldWait(void);
 
